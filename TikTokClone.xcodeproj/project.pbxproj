@@ -12,6 +12,8 @@
 		D645E5632B641B7900F6242B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D645E5622B641B7900F6242B /* Assets.xcassets */; };
 		D645E5662B641B7900F6242B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D645E5652B641B7900F6242B /* Preview Assets.xcassets */; };
 		D645E5822B6576B400F6242B /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D645E5812B6576B400F6242B /* MainTabView.swift */; };
+		D6BB128F2B67EA0D00D6481E /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BB128E2B67EA0D00D6481E /* NotificationsView.swift */; };
+		D6BB12912B67EA1B00D6481E /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BB12902B67EA1B00D6481E /* NotificationCell.swift */; };
 		D6FF02282B65821200700701 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FF02272B65821200700701 /* FeedView.swift */; };
 		D6FF022A2B65833E00700701 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FF02292B65833E00700701 /* FeedCell.swift */; };
 		D6FF022C2B65885100700701 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FF022B2B65885100700701 /* ExploreView.swift */; };
@@ -25,6 +27,8 @@
 		D645E5622B641B7900F6242B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D645E5652B641B7900F6242B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D645E5812B6576B400F6242B /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		D6BB128E2B67EA0D00D6481E /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		D6BB12902B67EA1B00D6481E /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 		D6FF02272B65821200700701 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		D6FF02292B65833E00700701 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		D6FF022B2B65885100700701 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
@@ -176,6 +180,8 @@
 		D645E57C2B64210E00F6242B /* Notifications */ = {
 			isa = PBXGroup;
 			children = (
+				D6BB128E2B67EA0D00D6481E /* NotificationsView.swift */,
+				D6BB12902B67EA1B00D6481E /* NotificationCell.swift */,
 			);
 			path = Notifications;
 			sourceTree = "<group>";
@@ -281,12 +287,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6FF02282B65821200700701 /* FeedView.swift in Sources */,
+				D6BB12912B67EA1B00D6481E /* NotificationCell.swift in Sources */,
 				D6FF022A2B65833E00700701 /* FeedCell.swift in Sources */,
 				D645E5612B641B7700F6242B /* ContentView.swift in Sources */,
 				D645E55F2B641B7700F6242B /* TikTokCloneApp.swift in Sources */,
 				D6FF022C2B65885100700701 /* ExploreView.swift in Sources */,
 				D645E5822B6576B400F6242B /* MainTabView.swift in Sources */,
 				D6FF022E2B65896C00700701 /* UserCell.swift in Sources */,
+				D6BB128F2B67EA0D00D6481E /* NotificationsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
